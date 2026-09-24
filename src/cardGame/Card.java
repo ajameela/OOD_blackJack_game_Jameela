@@ -72,8 +72,8 @@ public class Card {
 		if (getClass() != obj.getClass())
 			return false;
 		Card other = (Card) obj;
-		return Objects.equals(cardName, other.cardName) && Objects.equals(cardPicture, other.cardPicture)
-				&& Objects.equals(cardSuit, other.cardSuit) && cardValue == other.cardValue;
+		return Objects.equals(cardName, other.cardName) && cardValue == other.cardValue;
+		//only compares cardNames and cardValues; example - if values equal each other - returns true
 	}
 
 }//End Card Class
