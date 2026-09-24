@@ -1,3 +1,10 @@
+/*
+ * Name: Jameela Ahmed
+ * Date: 09/24/2026
+ * Program: Blackjack Card Game
+ * Creates Card objects and uses them in a simple card game.
+ */
+
 package cardGame;
 
 import java.io.File;
