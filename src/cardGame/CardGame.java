@@ -52,6 +52,8 @@ public class CardGame {
 			System.out.println(c);
 
 		System.out.println("pairs is " + checkFor2Kind());
+		
+		System.out.println("Card 1 is a face card " + playerCards.get(0).isAFaceCard());
 
 	}//end main
 

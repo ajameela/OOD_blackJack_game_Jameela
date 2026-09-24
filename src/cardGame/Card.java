@@ -73,7 +73,14 @@ public class Card {
 			return false;
 		Card other = (Card) obj;
 		return Objects.equals(cardName, other.cardName) && cardValue == other.cardValue;
-		//only compares cardNames and cardValues; example - if values equal each other - returns true
+		//Only compares cardNames and cardValues; example - if values equal each other - returns true
+	}
+	
+	
+	public boolean isAFaceCard () {		
+		return getCardName().equals("heart") 
+		        || getCardName().equals("jack") 
+		        || getCardName().equals("queen");
 	}
 
 }//End Card Class
