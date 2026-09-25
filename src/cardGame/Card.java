@@ -76,7 +76,7 @@ public class Card {
 		//Only compares cardNames and cardValues; example - if values equal each other - returns true
 	}
 	
-	
+	// Shows True/False if a card shows a face card
 	public boolean isAFaceCard () {		
 		return getCardName().equals("heart") 
 		        || getCardName().equals("jack") 
