@@ -1,5 +1,5 @@
 /*
- * Name: Jameela Ahmed
+ * Name: Jameela A, Saira  
  * Date: 09/24/2026
  * Program: Blackjack Card Game
  * Creates Card objects and uses them in a simple card game.
