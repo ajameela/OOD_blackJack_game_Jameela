@@ -1,6 +1,6 @@
 /*
- * Name: Jameela A, Saira D
- * Date: 09/24/2026
+ * Name: Jameela A, Saira D, Patricia M
+ * Date: 09/29/2026
  * Program: Blackjack Card Game
  * Creates Card objects and uses them in a simple card game.
  */

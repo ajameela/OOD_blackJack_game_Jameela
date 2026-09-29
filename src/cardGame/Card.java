@@ -16,8 +16,10 @@ public class Card {
 	private int cardValue;
 	private String cardPicture;
 	
+	
+
 	public Card(String cardSuit, String cardName, int cardValue, String cardPicture) {
-		
+		super();
 		this.cardSuit = cardSuit;
 		this.cardName = cardName;
 		this.cardValue = cardValue;
